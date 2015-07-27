@@ -24,7 +24,7 @@
     var svgScatter = dimple.newSvg("#ScatterChart", 590, 400);
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_wages_13.csv", function (data) {
         // Latest period only
-        dimple.filterData(data, "Sector 2013");
+        dimple.filterData(data, "Year", "2013");
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
         ScatterChart.setBounds(60, 30, 420, 330)
@@ -34,7 +34,7 @@
         ScatterChart.addMeasureAxis("x", "Employees 2013");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wages");
         ScatterChart.addSeries("Sector 2013", dimple.plot.bubble);
-        var myLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
+        var ScatterLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
         ScatterChart.draw();
         
         // This is a critical step.  By doing this we orphan the legend. This
@@ -46,7 +46,7 @@
         // Get a unique list of Owner values to use when filtering
         var filterValues = dimple.getUniqueValues(data, "Sector 2013");
         // Get all the rectangles from our now orphaned legend
-        myLegend.shapes.selectAll("rect")
+        ScatterLegend.shapes.selectAll("rect")
           // Add a click event to each rectangle
           .on("click", function (e) {
             // This indicates whether the item is already visible or not
