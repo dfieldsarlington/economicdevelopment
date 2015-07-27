@@ -36,8 +36,11 @@
         BubbleChart.addMeasureAxis("y", "Total Employment");
         BubbleChart.addSeries("Sector", dimple.plot.bubble);
         var BubbleLegend = BubbleChart.addLegend(530, 100, 60, 300, "Right");
-        BubbleChart.draw();
-        
+ 
+        // Create a storyboard for Race Year
+		var BubbleStoryboard = BubbleChart.setStoryboard("Sector");
+		BubbleStoryboard.categoryFields = ["Year"];
+		BubbleChart.draw();
         // This is a critical step.  By doing this we orphan the legend. This
         // means it will not respond to graph updates.  Without this the legend
         // will redraw when the chart refreshes removing the unchecked item and
