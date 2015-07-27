@@ -23,7 +23,7 @@
   <script type="text/javascript">
     var svgScatter = dimple.newSvg("#ScatterChart", 590, 400);
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
-        
+        dimple.filterData(data, "Year", "2013");
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
         ScatterChart.setBounds(60, 30, 420, 330)
