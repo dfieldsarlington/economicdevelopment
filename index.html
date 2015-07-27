@@ -25,16 +25,16 @@
     var svgBubble = dimple.newSvg("#BubbleChart", 590, 400);
     d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_wages_13.csv", function (data) {
       
-      dimple.filterData(data, "Sector");
+      dimple.filterData(data, "Sector 2013");
         // Create the chart
         var BubbleChart = new dimple.chart(svgBubble, data);
         BubbleChart.setBounds(60, 30, 420, 330)
 
         // Create a standard bubble of sectors by total employment and employees
         // We are coloring by Owner as that will be the key in the legend
-        BubbleChart.addMeasureAxis("x", "Employees");
+        BubbleChart.addMeasureAxis("x", "Employees 2013");
         BubbleChart.addMeasureAxis("y", "Average Weekly Wages");
-        BubbleChart.addSeries("Sector", dimple.plot.bubble);
+        BubbleChart.addSeries("Sector 2013", dimple.plot.bubble);
         var BubbleLegend = BubbleChart.addLegend(530, 100, 60, 300, "Right");
 		
 		BubbleChart.draw();
@@ -45,7 +45,7 @@
         BubbleChart.legends = [];
 
         // Get a unique list of Sector values to use when filtering
-        var filterValues = dimple.getUniqueValues(data, "Sector");
+        var filterValues = dimple.getUniqueValues(data, "Sector 2013");
         // Get all the rectangles from our now orphaned legend
         BubbleLegend.shapes.selectAll("rect")
           // Add a click event to each rectangle
@@ -71,7 +71,7 @@
             // Update the filters
             filterValues = newFilters;
             // Filter the data
-            BubbleChart.data = dimple.filterData(data, "Sector", filterValues);
+            BubbleChart.data = dimple.filterData(data, "Sector 2013", filterValues);
             // Passing a duration parameter makes the chart animate. Without
             // it there is no transition
             BubbleChart.draw(800);

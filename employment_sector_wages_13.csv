@@ -1,16 +1,16 @@
-Sector,Total Wages,Employees,Average Weekly Wages
-Construction,"$56,920,583 ",924,"$1,185 "
-Manufacturing,"$3,838,141 ",109,$677 
-Wholesale Trade,"$8,945,749 ",132,"$1,303 "
-Retail Trade,"$30,587,465 ",942,$624 
-Transportation and Warehousing,"$7,826,550 ",141,"$1,067 "
-Information,"$24,733,242 ",283,"$1,681 "
-Finance and Insurance,"$31,608,855 ",401,"$1,516 "
-Real Estate and Rental and Leasing,"$7,111,123 ",139,$984 
-Professional and Technical Services,"$28,106,912 ",365,"$1,481 "
-Administrative and Waste Services,"$18,035,269 ",331,"$1,048 "
-Health Care and Social Assistance,"$64,588,546 ","1,765",$704 
-"Arts, Entertainment, and Recreation","$3,391,537 ",137,$476 
-Accommodation and Food Services,"$14,663,438 ",768,$367 
-"Other Services, Ex. Public Admin","$18,979,021 ",661,$552 
-Public Administration,"$26,355,973 ",425,"$1,193 "
+Sector 2013,Total Wages,Employees 2013,Average Weekly Wages,Year
+Construction,"$56,920,583 ",924,"$1,185 ",2013
+Manufacturing,"$3,838,141 ",109,$677 ,2013
+Wholesale Trade,"$8,945,749 ",132,"$1,303 ",2013
+Retail Trade,"$30,587,465 ",942,$624 ,2013
+Transportation and Warehousing,"$7,826,550 ",141,"$1,067 ",2013
+Information,"$24,733,242 ",283,"$1,681 ",2013
+Finance and Insurance,"$31,608,855 ",401,"$1,516 ",2013
+Real Estate and Rental and Leasing,"$7,111,123 ",139,$984 ,2013
+Professional and Technical Services,"$28,106,912 ",365,"$1,481 ",2013
+Administrative and Waste Services,"$18,035,269 ",331,"$1,048 ",2013
+Health Care and Social Assistance,"$64,588,546 ","1,765",$704 ,2013
+"Arts, Entertainment, and Recreation","$3,391,537 ",137,$476 ,2013
+Accommodation and Food Services,"$14,663,438 ",768,$367 ,2013
+"Other Services, Ex. Public Admin","$18,979,021 ",661,$552 ,2013
+Public Administration,"$26,355,973 ",425,"$1,193 ",2013
