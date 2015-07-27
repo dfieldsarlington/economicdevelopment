@@ -23,8 +23,7 @@
   <script type="text/javascript">
     var svgScatter = dimple.newSvg("#ScatterChart", 590, 400);
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_wages_13.csv", function (data) {
-        // Latest period only
-        dimple.filterData(data, "Sector");
+        
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
         ScatterChart.setBounds(60, 30, 420, 330)
@@ -34,7 +33,7 @@
         ScatterChart.addMeasureAxis("x", "Employees 2013");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wages");
         ScatterChart.addSeries("Sector 2013", dimple.plot.bubble);
-        var ScatterLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
+        var ScatterLegend = ScatterChart.addLegend(600, 100, 60, 300, "Right");
         ScatterChart.draw();
         
         // This is a critical step.  By doing this we orphan the legend. This
