@@ -34,9 +34,9 @@
         // We are coloring by Owner as that will be the key in the legend
         BubbleChart.addMeasureAxis("x", "Employees");
         BubbleChart.addMeasureAxis("y", "Total Employment");
-        BubbleChart.addSeries("Sector", dimple.plot.bubble);
+        BubbleChart.addSeries("Year", dimple.plot.bubble);
         var BubbleLegend = BubbleChart.addLegend(530, 100, 60, 300, "Right");
-		BubbleChart.addSeries("Municipality", dimple.plot.bubble);
+		
 		BubbleChart.draw();
         // This is a critical step.  By doing this we orphan the legend. This
         // means it will not respond to graph updates.  Without this the legend
