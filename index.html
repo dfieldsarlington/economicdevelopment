@@ -22,7 +22,7 @@
 <div id="ScatterChart"></div>
   <script type="text/javascript">
     var svgScatter = dimple.newSvg("#ScatterChart", 590, 400);
-      d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_wages_13.csv", function (data) {
+      d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
         
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
@@ -30,9 +30,9 @@
 
         // Create a standard bubble of SKUs by Price and Sales Value
         // We are coloring by Owner as that will be the key in the legend
-        ScatterChart.addMeasureAxis("x", "Employees 2013");
+        ScatterChart.addMeasureAxis("x", "Employees");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wages");
-        ScatterChart.addSeries("Sector 2013", dimple.plot.bubble);
+        ScatterChart.addSeries("Sector", dimple.plot.bubble);
         var ScatterLegend = ScatterChart.addLegend(600, 100, 60, 300, "Right");
         ScatterChart.draw();
         
@@ -43,7 +43,7 @@
         ScatterChart.legends = [];
 
         // Get a unique list of Owner values to use when filtering
-        var filterValues = dimple.getUniqueValues(data, "Sector 2013");
+        var filterValues = dimple.getUniqueValues(data, "Sector");
         // Get all the rectangles from our now orphaned legend
         ScatterLegend.shapes.selectAll("rect")
           // Add a click event to each rectangle
@@ -69,12 +69,103 @@
             // Update the filters
             filterValues = newFilters;
             // Filter the data
-            ScatterChart.data = dimple.filterData(data, "Sector 2013", filterValues);
+            ScatterChart.data = dimple.filterData(data, "Sector", filterValues);
             // Passing a duration parameter makes the chart animate. Without
             // it there is no transition
             ScatterChart.draw(800);
-          });
-      });
+          
+		  // Event to handle mouse enter
+      function onHover(e) {
+        
+        // Get the properties of the selected shape
+        var cx = parseFloat(e.selectedShape.attr("cx")),
+            cy = parseFloat(e.selectedShape.attr("cy")),
+            r = parseFloat(e.selectedShape.attr("r")),
+            fill = e.selectedShape.attr("fill"),
+            stroke = e.selectedShape.attr("stroke");
+            
+        // Set the size and position of the popup
+        var width = 150,
+            height = 100,
+            x = (cx + r + width + 10 < svg.attr("width") ?
+                  cx + r + 10 :
+                  cx - r - width - 20);
+            y = (cy - height / 2 < 0 ?
+                  15 :
+                  cy - height / 2);
+                
+        // Fade the popup fill mixing the shape fill with 80% white
+        var popupFillColor = d3.rgb(
+                    d3.rgb(fill).r + 0.8 * (255 - d3.rgb(fill).r),
+                    d3.rgb(fill).g + 0.8 * (255 - d3.rgb(fill).g),
+                    d3.rgb(fill).b + 0.8 * (255 - d3.rgb(fill).b)
+                );
+        
+        // Create a group for the popup objects
+        popup = svg.append("g");
+        
+        // Add a rectangle surrounding the chart
+        popup
+          .append("rect")
+          .attr("x", x + 5)
+          .attr("y", y - 5)
+          .attr("width", width)
+          .attr("height", height)
+          .attr("rx", 5)
+          .attr("ry", 5)
+          .style("fill", popupFillColor)
+          .style("stroke", stroke)
+          .style("stroke-width", 2);
+        
+        // Add the series value text
+        popup
+          .append("text")
+          .attr("x", x + 10)
+          .attr("y", y + 10)
+          .text(e.seriesValue[0])
+          .style("font-family", "sans-serif")
+          .style("font-size", 10)
+          .style("fill", stroke);
+        
+        // Filter the data for the selected brand and sku
+        var hoverData = dimple.filterData(data, "Year", e.xValue);
+        hoverData = dimple.filterData(hoverData, "Sector", e.seriesValue);
+        
+        // Create a new mini chart of Unit Sales over Months
+        tipChart = new dimple.chart(svg,  hoverData);
+        tipChart.setBounds(x + 10, y + 30, width - 10, height - 40);
+        tipChart.addCategoryAxis("x", "Year").hidden = true;
+        tipChart.addMeasureAxis("y", "Employees").hidden = true;
+        
+        // Add a bar series, this can be changed to a line, area or bubble
+        // by changing the plot parameter accordingly.
+        var popUpSeries = tipChart.addSeries("SelectedSeries", dimple.plot.bar);
+        
+        // Set the gap to 80% - just a style preference
+        popUpSeries.barGap = 0.8;
+        
+        // Set the color to the stroke color of the selected node
+        tipChart.assignColor("SelectedSeries", stroke, stroke);
+        
+        // Draw the mini chart
+        tipChart.draw();
+        
+      };
+      
+      // Event to handle mouse exit
+      function onLeave(e) {
+        // Remove the chart
+        if (tipChart !== null) {
+          tipChart._group.remove();
+        }
+        // Remove the popup
+        if (popup !== null) {
+          popup.remove();
+        }
+      };
+    
+    });
+});	
   </script>
 </body>	
 </html>

@@ -1,144 +1,188 @@
-Municipality,Year,Employees,Percent of Total,Sector,Total Employment,Sector 2013,Total Wages,Employees 2013,Average Weekly Wages,Year
-Arlington,2012,1055,12.51,Goods Producing,8432,Construction,"$56,920,583 ",924,"$1,185 ",2013
-Arlington,2011,999,12.23,Goods Producing,8166,Manufacturing,"$3,838,141 ",109,$677 ,2013
-Arlington,2010,997,12.45,Goods Producing,8009,Wholesale Trade,"$8,945,749 ",132,"$1,303 ",2013
-Arlington,2009,961,11.83,Goods Producing,8123,Retail Trade,"$30,587,465 ",942,$624 ,2013
-Arlington,2008,1003,12.58,Goods Producing,7972,Transportation and Warehousing,"$7,826,550 ",141,"$1,067 ",2013
-Arlington,2007,1009,12.62,Goods Producing,7997,Information,"$24,733,242 ",283,"$1,681 ",2013
-Arlington,2006,1054,13.25,Goods Producing,7956,Finance and Insurance,"$31,608,855 ",401,"$1,516 ",2013
-Arlington,2005,1018,12.59,Goods Producing,8084,Real Estate and Rental and Leasing,"$7,111,123 ",139,$984 ,2013
-Arlington,2004,1028,12.99,Goods Producing,7913,Professional and Technical Services,"$28,106,912 ",365,"$1,481 ",2013
-Arlington,2003,1064,13.54,Goods Producing,7861,Administrative and Waste Services,"$18,035,269 ",331,"$1,048 ",2013
-Arlington,2002,1114,13.37,Goods Producing,8334,Health Care and Social Assistance,"$64,588,546 ","1,765",$704 ,2013
-Arlington,2001,1249,14.3,Goods Producing,8742,"Arts, Entertainment, and Recreation","$3,391,537 ",137,$476 ,2013
-Arlington,2012,946,11.22,Construction,8432,Accommodation and Food Services,"$14,663,438 ",768,$367 ,2013
-Arlington,2011,894,16.22,Construction,8166,"Other Services, Ex. Public Admin","$18,979,021 ",661,$552 ,2013
-Arlington,2010,877,0,Construction,8009,Public Administration,"$26,355,973 ",425,"$1,193 ",2013
-Arlington,2009,847,5.26,Construction,8123,,,,,
-Arlington,2008,879,8.08,Construction,7972,,,,,
-Arlington,2007,896,10.95,Construction,7997,,,,,
-Arlington,2006,948,10.95,Construction,7956,,,,,
-Arlington,2005,904,6.55,Construction,8084,,,,,
-Arlington,2004,865,14.77,Construction,7913,,,,,
-Arlington,2003,869,0,Construction,7861,,,,,
-Arlington,2002,912,2.86,Construction,8334,,,,,
-Arlington,2001,975,11.93,Construction,8742,,,,,
-Arlington,2012,109,1.29,Manufacturing,8432,,,,,
-Arlington,2011,105,1.29,Manufacturing,8166,,,,,
-Arlington,2010,119,1.49,Manufacturing,8009,,,,,
-Arlington,2009,113,1.39,Manufacturing,8123,,,,,
-Arlington,2008,123,1.54,Manufacturing,7972,,,,,
-Arlington,2007,114,1.43,Manufacturing,7997,,,,,
-Arlington,2006,106,1.33,Manufacturing,7956,,,,,
-Arlington,2005,114,1.41,Manufacturing,8084,,,,,
-Arlington,2004,163,2.06,Manufacturing,7913,,,,,
-Arlington,2003,195,2.48,Manufacturing,7861,,,,,
-Arlington,2002,202,2.42,Manufacturing,8334,,,,,
-Arlington,2001,274,3.14,Manufacturing,8742,,,,,
-Arlington,2012,7377,87.49,Service,8432,,,,,
-Arlington,2011,7167,87.77,Service,8166,,,,,
-Arlington,2010,7013,87.56,Service,8009,,,,,
-Arlington,2009,7163,88.18,Service,8123,,,,,
-Arlington,2008,6970,87.43,Service,7972,,,,,
-Arlington,2007,6988,87.38,Service,7997,,,,,
-Arlington,2006,6901,86.74,Service,7956,,,,,
-Arlington,2005,7066,87.41,Service,8084,,,,,
-Arlington,2004,6885,87.01,Service,7913,,,,,
-Arlington,2003,6798,86.48,Service,7861,,,,,
-Arlington,2002,7219,86.62,Service,8334,,,,,
-Arlington,2001,7486,85.7,Service,8742,,,,,
-Arlington,2012,1191,14.12,Trade Transportation and Utilities,8432,,,,,
-Arlington,2011,1168,14.3,Trade Transportation and Utilities,8166,,,,,
-Arlington,2010,1168,14.58,Trade Transportation and Utilities,8009,,,,,
-Arlington,2009,1212,14.92,Trade Transportation and Utilities,8123,,,,,
-Arlington,2008,1201,15.07,Trade Transportation and Utilities,7972,,,,,
-Arlington,2007,1221,15.27,Trade Transportation and Utilities,7997,,,,,
-Arlington,2006,1200,15.08,Trade Transportation and Utilities,7956,,,,,
-Arlington,2005,1240,15.34,Trade Transportation and Utilities,8084,,,,,
-Arlington,2004,1307,16.52,Trade Transportation and Utilities,7913,,,,,
-Arlington,2003,1317,16.75,Trade Transportation and Utilities,7861,,,,,
-Arlington,2002,1401,16.81,Trade Transportation and Utilities,8334,,,,,
-Arlington,2001,1448,16.58,Trade Transportation and Utilities,8742,,,,,
-Arlington,2012,281,3.33,Information,8432,,,,,
-Arlington,2011,258,3.16,Information,8166,,,,,
-Arlington,2010,278,3.47,Information,8009,,,,,
-Arlington,2009,290,3.57,Information,8123,,,,,
-Arlington,2008,155,1.94,Information,7972,,,,,
-Arlington,2007,171,2.14,Information,7997,,,,,
-Arlington,2006,172,2.16,Information,7956,,,,,
-Arlington,2005,171,2.12,Information,8084,,,,,
-Arlington,2004,142,1.79,Information,7913,,,,,
-Arlington,2003,180,2.29,Information,7861,,,,,
-Arlington,2002,223,2.68,Information,8334,,,,,
-Arlington,2001,283,3.24,Information,8742,,,,,
-Arlington,2012,507,6.01,Financial,8432,,,,,
-Arlington,2011,486,5.95,Financial,8166,,,,,
-Arlington,2010,454,5.67,Financial,8009,,,,,
-Arlington,2009,474,5.84,Financial,8123,,,,,
-Arlington,2008,483,6.06,Financial,7972,,,,,
-Arlington,2007,518,6.48,Financial,7997,,,,,
-Arlington,2006,515,6.47,Financial,7956,,,,,
-Arlington,2005,570,7.05,Financial,8084,,,,,
-Arlington,2004,517,6.53,Financial,7913,,,,,
-Arlington,2003,507,6.45,Financial,7861,,,,,
-Arlington,2002,519,6.23,Financial,8334,,,,,
-Arlington,2001,514,5.88,Financial,8742,,,,,
-Arlington,2012,805,9.55,Professional and Business Services,8432,,,,,
-Arlington,2011,802,9.82,Professional and Business Services,8166,,,,,
-Arlington,2010,739,9.23,Professional and Business Services,8009,,,,,
-Arlington,2009,876,10.78,Professional and Business Services,8123,,,,,
-Arlington,2008,964,12.09,Professional and Business Services,7972,,,,,
-Arlington,2007,986,12.33,Professional and Business Services,7997,,,,,
-Arlington,2006,1053,13.24,Professional and Business Services,7956,,,,,
-Arlington,2005,975,12.06,Professional and Business Services,8084,,,,,
-Arlington,2004,889,11.23,Professional and Business Services,7913,,,,,
-Arlington,2003,850,10.81,Professional and Business Services,7861,,,,,
-Arlington,2002,954,11.45,Professional and Business Services,8334,,,,,
-Arlington,2001,1169,13.38,Professional and Business Services,8742,,,,,
-Arlington,2012,2575,30.54,Education and Health Services,8432,,,,,
-Arlington,2011,2470,30.25,Education and Health Services,8166,,,,,
-Arlington,2010,2433,30.38,Education and Health Services,8009,,,,,
-Arlington,2009,2515,30.96,Education and Health Services,8123,,,,,
-Arlington,2008,2271,28.49,Education and Health Services,7972,,,,,
-Arlington,2007,2224,27.81,Education and Health Services,7997,,,,,
-Arlington,2006,2051,25.78,Education and Health Services,7956,,,,,
-Arlington,2005,2208,27.31,Education and Health Services,8084,,,,,
-Arlington,2004,2163,27.33,Education and Health Services,7913,,,,,
-Arlington,2003,2113,26.88,Education and Health Services,7861,,,,,
-Arlington,2002,2359,28.31,Education and Health Services,8334,,,,,
-Arlington,2001,2326,26.63,Education and Health Services,8742,,,,,
-Arlington,2012,871,10.33,Leisure and Hospitality,8432,,,,,
-Arlington,2011,878,10.75,Leisure and Hospitality,8166,,,,,
-Arlington,2010,838,10.46,Leisure and Hospitality,8009,,,,,
-Arlington,2009,742,9.13,Leisure and Hospitality,8123,,,,,
-Arlington,2008,866,10.86,Leisure and Hospitality,7972,,,,,
-Arlington,2007,828,10.35,Leisure and Hospitality,7997,,,,,
-Arlington,2006,865,10.87,Leisure and Hospitality,7956,,,,,
-Arlington,2005,865,10.7,Leisure and Hospitality,8084,,,,,
-Arlington,2004,853,10.78,Leisure and Hospitality,7913,,,,,
-Arlington,2003,828,10.53,Leisure and Hospitality,7861,,,,,
-Arlington,2002,776,9.31,Leisure and Hospitality,8334,,,,,
-Arlington,2001,779,8.92,Leisure and Hospitality,8742,,,,,
-Arlington,2012,695,8.24,Other Services,8432,,,,,
-Arlington,2011,670,8.2,Other Services,8166,,,,,
-Arlington,2010,655,8.18,Other Services,8009,,,,,
-Arlington,2009,576,7.09,Other Services,8123,,,,,
-Arlington,2008,549,6.89,Other Services,7972,,,,,
-Arlington,2007,559,6.99,Other Services,7997,,,,,
-Arlington,2006,568,7.14,Other Services,7956,,,,,
-Arlington,2005,585,7.24,Other Services,8084,,,,,
-Arlington,2004,579,7.32,Other Services,7913,,,,,
-Arlington,2003,558,7.1,Other Services,7861,,,,,
-Arlington,2002,519,6.23,Other Services,8334,,,,,
-Arlington,2001,539,6.17,Other Services,8742,,,,,
-Arlington,2012,452,5.36,Public Administration,8432,,,,,
-Arlington,2011,439,5.38,Public Administration,8166,,,,,
-Arlington,2010,448,5.59,Public Administration,8009,,,,,
-Arlington,2009,477,5.87,Public Administration,8123,,,,,
-Arlington,2008,481,6.03,Public Administration,7972,,,,,
-Arlington,2007,482,6.03,Public Administration,7997,,,,,
-Arlington,2006,480,6.03,Public Administration,7956,,,,,
-Arlington,2005,453,5.6,Public Administration,8084,,,,,
-Arlington,2004,436,5.51,Public Administration,7913,,,,,
-Arlington,2003,446,5.67,Public Administration,7861,,,,,
-Arlington,2002,469,5.63,Public Administration,8334,,,,,
+Sector,Total,Employees,Average Weekly Wage,Year
+Construction,"$56,920,583 ",924,"$1,185 ",2013
+Manufacturing,"$3,838,141 ",109,$677 ,2013
+Durable Goods Manufacturing,"$1,399,340 ",21,"$1,281 ",2013
+Non-Durable Goods Manufacturing,"$2,438,801 ",87,$539 ,2013
+Wholesale Trade,"$8,945,749 ",132,"$1,303 ",2013
+Retail Trade,"$30,587,465 ",942,$624 ,2013
+Transportation and Warehousing,"$7,826,550 ",141,"$1,067 ",2013
+Information,"$24,733,242 ",283,"$1,681 ",2013
+Finance and Insurance,"$31,608,855 ",401,"$1,516 ",2013
+Real Estate and Rental and Leasing,"$7,111,123 ",139,$984 ,2013
+Professional and Technical Services,"$28,106,912 ",365,"$1,481 ",2013
+Administrative and Waste Services,"$18,035,269 ",331,"$1,048 ",2013
+Health Care and Social Assistance,"$64,588,546 ","1,765",$704 ,2013
+Arts Entertainment and Recreation,"$3,391,537 ",137,$476 ,2013
+Accommodation and Food Services,"$14,663,438 ",768,$367 ,2013
+Other Services,"$18,979,021 ",661,$552 ,2013
+Public Administration,"$26,355,973 ",425,"$1,193 ",2013
+Construction,"$55,184,614 ",946,"$1,122 ",2012
+Manufacturing,"$3,435,221 ",109,$606 ,2012
+Durable Goods Manufacturing,"$954,009 ",19,$966 ,2012
+Non-Durable Goods Manufacturing,,,,2012
+Wholesale Trade,,,,2012
+Retail Trade,,,,2012
+Transportation and Warehousing,,,,2012
+Information,"$20,158,071 ",281,"$1,380 ",2012
+Finance and Insurance,"$29,783,078 ",367,"$1,561 ",2012
+Real Estate and Rental and Leasing,,,,2012
+Professional and Technical Services,,,,2012
+Administrative and Waste Services,"$17,410,181 ",321,"$1,043 ",2012
+Health Care and Social Assistance,"$56,865,560 ","1,585",$690 ,2012
+Arts Entertainment and Recreation,"$3,263,163 ",144,$436 ,2012
+Accommodation and Food Services,"$14,218,531 ",728,$376 ,2012
+Other Services,,,,2012
+Public Administration,,,,2012
+Construction,"$51,588,131 ",894,"$1,110 ",2011
+Manufacturing,"$3,227,648 ",105,$591 ,2011
+Durable Goods Manufacturing,"$848,963 ",17,$960 ,2011
+Non-Durable Goods Manufacturing,,,,2011
+Wholesale Trade,,,,2011
+Retail Trade,,,,2011
+Transportation and Warehousing,,,,2011
+Information,"$18,912,791 ",258,"$1,410 ",2011
+Finance and Insurance,"$26,725,595 ",333,"$1,543 ",2011
+Real Estate and Rental and Leasing,,,,2011
+Professional and Technical Services,,,,2011
+Administrative and Waste Services,"$16,258,686 ",294,"$1,063 ",2011
+Health Care and Social Assistance,"$52,380,898 ","1,523",$661 ,2011
+Arts Entertainment and Recreation,"$3,375,708 ",141,$460 ,2011
+Accommodation and Food Services,"$13,693,555 ",737,$357 ,2011
+Other Services,,,,2011
+Public Administration,,,,2011
+Construction,"$49,842,749 ",877,"$1,093 ",2010
+Manufacturing,"$3,703,257 ",119,$598 ,2010
+Durable Goods Manufacturing,"$1,055,236 ",15,"$1,353 ",2010
+Non-Durable Goods Manufacturing,,,,2010
+Wholesale Trade,,,,2010
+Retail Trade,,,,2010
+Transportation and Warehousing,,,,2010
+Information,"$17,823,449 ",278,"$1,233 ",2010
+Finance and Insurance,"$21,205,761 ",289,"$1,411 ",2010
+Real Estate and Rental and Leasing,,,,2010
+Professional and Technical Services,,,,2010
+Administrative and Waste Services,"$14,426,228 ",270,"$1,028 ",2010
+Health Care and Social Assistance,"$49,257,763 ","1,485",$638 ,2010
+Arts Entertainment and Recreation,"$3,571,256 ",154,$446 ,2010
+Accommodation and Food Services,"$12,530,050 ",685,$352 ,2010
+Other Services,,,,2010
+Public Administration,,,,2010
+Construction,"$47,467,962 ",847,"$1,078 ",2009
+Manufacturing,"$3,355,777 ",113,$571 ,2009
+Durable Goods Manufacturing,"$725,346 ",13,"$1,073 ",2009
+Non-Durable Goods Manufacturing,,,,2009
+Wholesale Trade,,,,2009
+Retail Trade,,,,2009
+Transportation and Warehousing,,,,2009
+Information,"$17,445,099 ",290,"$1,157 ",2009
+Finance and Insurance,"$18,918,273 ",306,"$1,189 ",2009
+Real Estate and Rental and Leasing,,,,2009
+Professional and Technical Services,,,,2009
+Administrative and Waste Services,"$15,687,410 ",298,"$1,012 ",2009
+Health Care and Social Assistance,"$50,603,996 ","1,535",$634 ,2009
+Arts Entertainment and Recreation,"$2,477,540 ",136,$350 ,2009
+Accommodation and Food Services,"$11,475,677 ",606,$364 ,2009
+Other Services,,,,2009
+Public Administration,,,,2009
+Construction,"$48,590,913 ",879,"$1,063 ",2008
+Manufacturing,"$3,551,113 ",123,$555 ,2008
+Durable Goods Manufacturing,"$650,249 ",12,"$1,042 ",2008
+Non-Durable Goods Manufacturing,,,,2008
+Wholesale Trade,,,,2008
+Retail Trade,,,,2008
+Transportation and Warehousing,,,,2008
+Information,"$7,439,437 ",155,$923 ,2008
+Finance and Insurance,"$16,310,016 ",305,"$1,028 ",2008
+Real Estate and Rental and Leasing,,,,2008
+Professional and Technical Services,,,,2008
+Administrative and Waste Services,"$16,287,216 ",356,$880 ,2008
+Health Care and Social Assistance,"$51,463,445 ","1,547",$640 ,2008
+Arts Entertainment and Recreation,"$3,216,146 ",169,$366 ,2008
+Accommodation and Food Services,"$12,994,408 ",696,$359 ,2008
+Other Services,,,,2008
+Public Administration,,,,2008
+Construction,"$48,207,889 ",896,"$1,035 ",2007
+Manufacturing,"$3,634,751 ",114,$613 ,2007
+Durable Goods Manufacturing,"$774,565 ",13,"$1,146 ",2007
+Non-Durable Goods Manufacturing,,,,2007
+Wholesale Trade,,,,2007
+Retail Trade,,,,2007
+Transportation and Warehousing,,,,2007
+Information,"$9,064,334 ",171,"$1,019 ",2007
+Finance and Insurance,"$17,984,265 ",310,"$1,116 ",2007
+Real Estate and Rental and Leasing,,,,2007
+Professional and Technical Services,,,,2007
+Administrative and Waste Services,"$18,566,844 ",389,$918 ,2007
+Health Care and Social Assistance,"$47,502,218 ","1,497",$610 ,2007
+Arts Entertainment and Recreation,"$2,552,253 ",124,$396 ,2007
+Accommodation and Food Services,"$13,474,531 ",704,$368 ,2007
+Other Services,,,,2007
+Public Administration,,,,2007
+Construction,,,,2006
+Manufacturing,,,,2006
+Durable Goods Manufacturing,,,,2006
+Non-Durable Goods Manufacturing,,,,2006
+Wholesale Trade,,,,2006
+Retail Trade,,,,2006
+Transportation and Warehousing,,,,2006
+Information,,,,2006
+Finance and Insurance,,,,2006
+Real Estate and Rental and Leasing,,,,2006
+Professional and Technical Services,,,,2006
+Administrative and Waste Services,,,,2006
+Health Care and Social Assistance,,,,2006
+Arts Entertainment and Recreation,,,,2006
+Accommodation and Food Services,,,,2006
+Other Services,,,,2006
+Public Administration,,,,2006
+Construction,,,,2005
+Manufacturing,,,,2005
+Durable Goods Manufacturing,,,,2005
+Non-Durable Goods Manufacturing,,,,2005
+Wholesale Trade,,,,2005
+Retail Trade,,,,2005
+Transportation and Warehousing,,,,2005
+Information,,,,2005
+Finance and Insurance,,,,2005
+Real Estate and Rental and Leasing,,,,2005
+Professional and Technical Services,,,,2005
+Administrative and Waste Services,,,,2005
+Health Care and Social Assistance,,,,2005
+Arts Entertainment and Recreation,,,,2005
+Accommodation and Food Services,,,,2005
+Other Services,,,,2005
+Public Administration,,,,2005
+Construction,,,,2004
+Manufacturing,,,,2004
+Durable Goods Manufacturing,,,,2004
+Non-Durable Goods Manufacturing,,,,2004
+Wholesale Trade,,,,2004
+Retail Trade,,,,2004
+Transportation and Warehousing,,,,2004
+Information,,,,2004
+Finance and Insurance,,,,2004
+Real Estate and Rental and Leasing,,,,2004
+Professional and Technical Services,,,,2004
+Administrative and Waste Services,,,,2004
+Health Care and Social Assistance,,,,2004
+Arts Entertainment and Recreation,,,,2004
+Accommodation and Food Services,,,,2004
+Other Services,,,,2004
+Public Administration,,,,2004
+Construction,,,,
+Manufacturing,,,,
+Durable Goods Manufacturing,,,,
+Non-Durable Goods Manufacturing,,,,
+Wholesale Trade,,,,
+Retail Trade,,,,
+Transportation and Warehousing,,,,
+Information,,,,
+Finance and Insurance,,,,
+Real Estate and Rental and Leasing,,,,
+Professional and Technical Services,,,,
+Administrative and Waste Services,,,,
+Health Care and Social Assistance,,,,
+Arts Entertainment and Recreation,,,,
+Accommodation and Food Services,,,,
+Other Services,,,,
+Public Administration,,,,
