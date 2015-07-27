@@ -23,7 +23,7 @@
 <script type="text/javascript">
     //Start Bubble Chart
     var svg = dimple.newSvg("#BubbleChart", "80%", "80%");
-    d3.csv("/data/example_data.tsv", function (data) {
+    d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
       
       // Focus on the top 6 brands
       data = dimple.filterData(data, "Brand", ["Theta", "Omicron", "Kappa", "Beta", "Lambda", "Alpha"]);
