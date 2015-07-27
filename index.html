@@ -25,7 +25,7 @@
     var svgBubble = dimple.newSvg("#BubbleChart", 590, 400);
     d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
       
-      dimple.filterData(data, "Year", "2001");
+      dimple.filterData(data, "Sector");
         // Create the chart
         var BubbleChart = new dimple.chart(svgBubble, data);
         BubbleChart.setBounds(60, 30, 420, 330)
@@ -33,8 +33,8 @@
         // Create a standard bubble of sectors by total employment and employees
         // We are coloring by Owner as that will be the key in the legend
         BubbleChart.addMeasureAxis("x", "Employees");
-        BubbleChart.addMeasureAxis("y", "Total Employment");
-        BubbleChart.addSeries("Year", dimple.plot.bubble);
+        BubbleChart.addMeasureAxis("y", "Average Weekly Wages");
+        BubbleChart.addSeries("Sector", dimple.plot.bubble);
         var BubbleLegend = BubbleChart.addLegend(530, 100, 60, 300, "Right");
 		
 		BubbleChart.draw();
