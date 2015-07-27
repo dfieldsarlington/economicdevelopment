@@ -22,7 +22,7 @@
 <div id="BubbleChart"></div>
 <script type="text/javascript">
     //Start Bubble Chart
-    var svgBubble = dimple.newSvg("#BubbleChart", "80%", "80%");
+    var svgBubble = dimple.newSvg("#BubbleChart", 590, 400);
     d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
       
       dimple.filterData(data, "Year", "2001");
