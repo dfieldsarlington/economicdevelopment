@@ -36,7 +36,8 @@
         BubbleChart.addMeasureAxis("y", "Total Employment");
         BubbleChart.addSeries("Sector", dimple.plot.bubble);
         var BubbleLegend = BubbleChart.addLegend(530, 100, 60, 300, "Right");
- 
+		BubbleChart.addSeries("Municipality", dimple.plot.bubble);
+		var BubbleLegend2 = BubbleChart.addLegend(80, 230, 85, 290, "Right");
         // Create a storyboard for Race Year
 		var BubbleStoryboard = BubbleChart.setStoryboard("Sector");
 		BubbleStoryboard.categoryFields = ["Year"];
