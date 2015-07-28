@@ -150,11 +150,13 @@
   <script type="text/javascript">
     var svgScatter = dimple.newSvg("#ScatterChart", "80%", "100%");
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_05_13.csv", function (data) {
-       dimple.filterData(data, "Years", "2013");
+       
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
-        // Create a standard scatter of employees and wages by sector for 2013
-        // We are coloring by Sector as that will be the key in the legend
+        
+
+        // Create a standard bubble of SKUs by Price and Sales Value
+        // We are coloring by Owner as that will be the key in the legend
         ScatterChart.addMeasureAxis("x", "Employees");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wage");
         ScatterChart.addSeries("Sector", dimple.plot.bubble);
