@@ -23,7 +23,7 @@
   <script type="text/javascript">
     var svgScatter = dimple.newSvg("#ScatterChart", "80%", "100%");
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_05_13.csv", function (data) {
-       dimple.filterData(data, "Year", ["2013"]);
+       dimple.filterData(data, "Sector");
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
         // Create a standard scatter of employees and wages by sector for 2013
