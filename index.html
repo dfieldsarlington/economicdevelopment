@@ -43,7 +43,7 @@
         // object to split it onto 2 lines.  This technique works with any
         // number of lines, it isn't dimple specific.
         svg.selectAll("title_text")
-          .data(["Click legend to","show/hide owners:"])
+          .data(["Click legend to","show/hide sectors:"])
           .enter()
           .append("text")
             .attr("x", 499)
@@ -56,7 +56,7 @@
         // Get a unique list of Owner values to use when filtering
         var filterValues = dimple.getUniqueValues(data, "Sector");
         // Get all the rectangles from our now orphaned legend
-        myLegend.shapes.selectAll("rect")
+        ScatterLegend.shapes.selectAll("rect")
           // Add a click event to each rectangle
           .on("click", function (e) {
             // This indicates whether the item is already visible or not
