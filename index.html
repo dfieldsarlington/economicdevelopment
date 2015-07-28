@@ -33,7 +33,7 @@
         ScatterChart.addMeasureAxis("x", "Employees 2013");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wage 2013");
         ScatterChart.addSeries("Sector 2013", dimple.plot.bubble);
-		dimple.series.addOrderRule("Sector 2013");
+		ScatterChart.addOrderRule("Sector 2013");
         var ScatterLegend = ScatterChart.addLegend(650, 100, 60, 300, "Right");
         ScatterChart.draw();
         
