@@ -12,7 +12,7 @@
 	float: left;
 	top:10px;
 	left:10px;
-	width:100%;
+	width:50%;
 	height: 600px;
 	background-color: rgb(252,245,223);
 }
@@ -29,10 +29,10 @@
         // We are coloring by Owner as that will be the key in the legend
         ScatterChart.addMeasureAxis("x", "Employees");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wage");
+		ScatterChart.addMeasureAxis("z", "[100]");
         ScatterChart.addSeries("Sector", dimple.plot.bubble);
         var ScatterLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
         ScatterChart.draw();
-        
         // This is a critical step.  By doing this we orphan the legend. This
         // means it will not respond to graph updates.  Without this the legend
         // will redraw when the chart refreshes removing the unchecked item and
