@@ -29,7 +29,7 @@
         // We are coloring by Owner as that will be the key in the legend
         ScatterChart.addMeasureAxis("x", "Employees");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wage");
-		ScatterChart.addMeasureAxis("z", "100px");
+		
         ScatterChart.addSeries("Sector", dimple.plot.bubble);
         var ScatterLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
         ScatterChart.draw();
