@@ -20,6 +20,7 @@
 </head>
 <body>
 <div id="ScatterChart"></div>
+<<<<<<< HEAD
 <script type="text/javascript">
       var svgScatter = dimple.newSvg("#ScatterChart", 590, 400);
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_05_13.csv", function (data) {
@@ -126,6 +127,44 @@
               // otherwise pause and move to the selected month
               if (e.yValue === ScatterStory.getFrameValue()) {
                   ScatterStory.startAnimation();
+=======
+  <script type="text/javascript">
+    var svgScatter = dimple.newSvg("#ScatterChart", "80%", "100%");
+      d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_02_12.csv", function (data) {
+       
+        // Create the chart
+        var ScatterChart = new dimple.chart(svgScatter, data);
+        
+
+        // Create a standard bubble of SKUs by Price and Sales Value
+        // We are coloring by Owner as that will be the key in the legend
+        ScatterChart.addMeasureAxis("x", "Employees 2013");
+        ScatterChart.addMeasureAxis("y", "Average Weekly Wage 2013");
+        ScatterChart.addSeries("Sector 2013", dimple.plot.bubble);
+		
+        var ScatterLegend = ScatterChart.addLegend(650, 100, 60, 300, "Right");
+        ScatterChart.draw();
+        
+        // This is a critical step.  By doing this we orphan the legend. This
+        // means it will not respond to graph updates.  Without this the legend
+        // will redraw when the chart refreshes removing the unchecked item and
+        // also dropping the events we define below.
+        ScatterChart.legends = [];
+
+        // Get a unique list of Owner values to use when filtering
+        var filterValues = dimple.getUniqueValues(data, "Sector 2013");
+        // Get all the rectangles from our now orphaned legend
+        ScatterLegend.shapes.selectAll("rect")
+          // Add a click event to each rectangle
+          .on("click", function (e) {
+            // This indicates whether the item is already visible or not
+            var hide = false;
+            var newFilters = [];
+            // If the filters contain the clicked shape hide it
+            filterValues.forEach(function (f) {
+              if (f === e.aggField.slice(-1)[0]) {
+                hide = true;
+>>>>>>> parent of 3701331... move legend
               } else {
                   ScatterStory.goToFrame(e.yValue);
                   ScatterStory.pauseAnimation();
