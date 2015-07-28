@@ -21,7 +21,7 @@
 <body>
 <div id="ScatterChart"></div>
   <script type="text/javascript">
-    var svgScatter = dimple.newSvg("#ScatterChart", "70%", "65%");
+    var svgScatter = dimple.newSvg("#ScatterChart", "60%", "70%");
       d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment%20test.csv", function (data) {
         // Create the chart
         var ScatterChart = new dimple.chart(svgScatter, data);
@@ -31,7 +31,7 @@
         ScatterChart.addMeasureAxis("y", "Average Weekly Wage");
 		
         ScatterChart.addSeries("Sector", dimple.plot.bubble);
-        var ScatterLegend = ScatterChart.addLegend(530, 100, 60, 300, "Right");
+        var ScatterLegend = ScatterChart.addLegend(450, 100, 60, 300, "Right");
         ScatterChart.draw();
         // This is a critical step.  By doing this we orphan the legend. This
         // means it will not respond to graph updates.  Without this the legend
