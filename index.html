@@ -26,7 +26,7 @@
     d3.csv("https://raw.githubusercontent.com/dfieldsarlington/economicdevelopment/gh-pages/employment_sector_05_13.csv", function (data) {
       
       // Focus on the sectors
-      data = dimple.filterData(data, "Sector");
+      data = dimple.filterData(data, "Year");
 
       // The main chart
       var ScatterChart = new dimple.chart(svgScatter, data);
@@ -39,12 +39,12 @@
       ScatterChart.setBounds(60, 40, 500, 320);
       
       // Add the main chart axes
-      ScatterChart.addCategoryAxis("x", "Sector");
+      ScatterChart.addCategoryAxis("x", "Year");
       ScatterChart.addMeasureAxis("y", "Employees");
       ScatterChart.addMeasureAxis("z", "Average Weekly Wages");
       
       // Draw bubbles by employees colored by wages
-      var s = ScatterChart.addSeries(["Sector", "Employees"], dimple.plot.bubble);
+      var s = ScatterChart.addSeries(["Sector"], dimple.plot.bubble);
       
       // Handle the hover event - overriding the default behaviour
       s.addEventHandler("mouseover", onHover);
@@ -115,7 +115,7 @@
         tipChart = new dimple.chart(svg,  hoverData);
         tipChart.setBounds(x + 10, y + 30, width - 10, height - 40);
         tipChart.addCategoryAxis("x", "Year").hidden = true;
-        tipChart.addMeasureAxis("y", "Average Weekly Wages").hidden = true;
+        tipChart.addMeasureAxis("y", "Employees").hidden = true;
         
         // Add a bar series, this can be changed to a line, area or bubble
         // by changing the plot parameter accordingly.
