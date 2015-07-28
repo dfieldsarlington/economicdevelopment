@@ -30,7 +30,7 @@
         // We are coloring by Sector as that will be the key in the legend
         ScatterChart.addMeasureAxis("x", "Employees");
         ScatterChart.addMeasureAxis("y", "Average Weekly Wages");
-        ScatterChart.addSeries("Sector", dimple.plot.bubble);
+        var s = ScatterChart.addSeries(["Sector", "Year"], dimple.plot.bubble);
 		
         var ScatterLegend = ScatterChart.addLegend(420, 100, 20, 300, "Right");
         ScatterChart.draw();
