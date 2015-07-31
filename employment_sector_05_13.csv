@@ -1,149 +1,149 @@
-Sector,Total,Employees,Average Weekly Wage,Year,Indicator
-Accommodation and Food Services,14663438,768,367,2013,1
-Administrative and Waste Services,18035269,331,1048,2013,1
-Arts Entertainment and Recreation,3391537,137,476,2013,1
-Construction,56920583,924,1185,2013,1
-Durable Goods Manufacturing,1399340,21,1281,2013,1
-Finance and Insurance,31608855,401,1516,2013,1
-Health Care and Social Assistance,64588546,1765,704,2013,1
-Information,24733242,283,1681,2013,1
-Manufacturing,3838141,109,677,2013,1
-Non-Durable Goods Manufacturing,2438801,87,539,2013,1
-Other Services,18979021,661,552,2013,1
-Professional and Technical Services,28106912,365,1481,2013,1
-Public Administration,26355973,425,1193,2013,1
-Real Estate and Rental and Leasing,7111123,139,984,2013,1
-Retail Trade,30587465,942,624,2013,1
-Transportation and Warehousing,7826550,141,1067,2013,1
-Wholesale Trade,8945749,132,1303,2013,1
-Construction,55184614,946,1122,2012,1
-Manufacturing,3435221,109,606,2012,1
-Durable Goods Manufacturing,954009,19,966,2012,1
-Non-Durable Goods Manufacturing,2481212,90,530,2012,1
-Wholesale Trade,8367715,129,1247,2012,1
-Retail Trade,27890885,916,586,2012,1
-Transportation and Warehousing,7661911,146,1009,2012,1
-Information,20158071,281,1380,2012,1
-Finance and Insurance,29783078,367,1561,2012,1
-Real Estate and Rental and Leasing,7008764,140,963,2012,1
-Professional and Technical Services,27458158,359,1471,2012,1
-Administrative and Waste Services,17410181,321,1043,2012,1
-Health Care and Social Assistance,56865560,1585,690,2012,1
-Arts Entertainment and Recreation,3263163,144,436,2012,1
-Accommodation and Food Services,14218531,728,376,2012,1
-Other Services,18191720,695,503,2012,1
-Public Administration,26634102,452,1133,2012,1
-Construction,51588131,894,1110,2011,1
-Manufacturing,3227648,105,591,2011,1
-Durable Goods Manufacturing,848963,17,960,2011,1
-Non-Durable Goods Manufacturing,2378685,88,520,2011,1
-Wholesale Trade,8917412,122,1406,2011,1
-Retail Trade,26198896,891,565,2011,1
-Transportation and Warehousing,7906989,152,1000,2011,1
-Information,18912791,258,1410,2011,1
-Finance and Insurance,26725595,333,1543,2011,1
-Real Estate and Rental and Leasing,7390049,153,929,2011,1
-Professional and Technical Services,29105679,378,1481,2011,1
-Administrative and Waste Services,16258686,294,1063,2011,1
-Health Care and Social Assistance,52380898,1523,661,2011,1
-Arts Entertainment and Recreation,3375708,141,460,2011,1
-Accommodation and Food Services,13693555,737,357,2011,1
-Other Services,17869551,670,513,2011,1
-Public Administration,25538198,439,1119,2011,1
-Construction,49842749,877,1093,2010,1
-Manufacturing,3703257,119,598,2010,1
-Durable Goods Manufacturing,1055236,15,1353,2010,1
-Non-Durable Goods Manufacturing,2648021,105,485,2010,1
-Wholesale Trade,8645455,118,1409,2010,1
-Retail Trade,26570729,893,572,2010,1
-Transportation and Warehousing,7885617,157,966,2010,1
-Information,17823449,278,1233,2010,1
-Finance and Insurance,21205761,289,1411,2010,1
-Real Estate and Rental and Leasing,8435146,165,983,2010,1
-Professional and Technical Services,24631632,342,1385,2010,1
-Administrative and Waste Services,14426228,270,1028,2010,1
-Health Care and Social Assistance,49257763,1485,638,2010,1
-Arts Entertainment and Recreation,3571256,154,446,2010,1
-Accommodation and Food Services,12530050,685,352,2010,1
-Other Services,17138007,655,503,2010,1
-Public Administration,23930579,448,1027,2010,1
-Construction,47467962,847,1078,2009,1
-Manufacturing,3355777,113,571,2009,1
-Durable Goods Manufacturing,725346,13,1073,2009,1
-Non-Durable Goods Manufacturing,2630431,100,506,2009,1
-Wholesale Trade,7662573,109,1352,2009,1
-Retail Trade,27014477,922,563,2009,1
-Transportation and Warehousing,7738832,156,954,2009,1
-Information,17445099,290,1157,2009,1
-Finance and Insurance,18918273,306,1189,2009,1
-Real Estate and Rental and Leasing,8008368,168,917,2009,1
-Professional and Technical Services,32735924,444,1418,2009,1
-Administrative and Waste Services,15687410,298,1012,2009,1
-Health Care and Social Assistance,50603996,1535,634,2009,1
-Arts Entertainment and Recreation,2477540,136,350,2009,1
-Accommodation and Food Services,11475677,606,364,2009,1
-Other Services,15703423,576,524,2009,1
-Public Administration,23255740,477,938,2009,1
-Construction,48590913,879,1063,2008,1
-Manufacturing,3551113,123,555,2008,1
-Durable Goods Manufacturing,650249,12,1042,2008,1
-Non-Durable Goods Manufacturing,2900864,111,503,2008,1
-Wholesale Trade,7925576,126,1210,2008,1
-Retail Trade,27290181,933,562,2008,1
-Information,7439437,155,923,2008,1
-Finance and Insurance,16310016,305,1028,2008,1
-Real Estate and Rental and Leasing,8153111,178,881,2008,1
-Professional and Technical Services,35748807,480,1432,2008,1
-Administrative and Waste Services,16287216,356,880,2008,1
-Health Care and Social Assistance,51463445,1547,640,2008,1
-Arts Entertainment and Recreation,3216146,169,366,2008,1
-Accommodation and Food Services,12994408,696,359,2008,1
-Other Services,15396550,549,539,2008,1
-Public Administration,22250691,481,890,2008,1
-Construction,48207889,896,1035,2007,1
-Manufacturing,3634751,114,613,2007,1
-Durable Goods Manufacturing,774565,13,1146,2007,1
-Non-Durable Goods Manufacturing,2860186,101,545,2007,1
-Wholesale Trade,8998178,142,1219,2007,1
-Retail Trade,25364104,931,524,2007,1
-Information,9064334,171,1019,2007,1
-Finance and Insurance,17984265,310,1116,2007,1
-Real Estate and Rental and Leasing,8844065,208,818,2007,1
-Professional and Technical Services,32575301,465,1347,2007,1
-Administrative and Waste Services,18566844,389,918,2007,1
-Health Care and Social Assistance,47502218,1497,610,2007,1
-Arts Entertainment and Recreation,2552253,124,396,2007,1
-Accommodation and Food Services,13474531,704,368,2007,1
-Other Services,15156067,559,521,2007,1
-Public Administration,21060572,482,840,2007,1
-Construction,49480144,948,1004,2006,1
-Manufacturing,3227274,106,585,2006,1
-Non-Durable Goods Manufacturing,2690750,99,523,2006,1
-Wholesale Trade,9118436,130,1349,2006,1
-Retail Trade,24853743,933,512,2006,1
-Information,6946172,172,777,2006,1
-Finance and Insurance,17443999,312,1075,2006,1
-Real Estate and Rental and Leasing,8394700,204,791,2006,1
-Professional and Technical Services,34740387,511,1307,2006,1
-Administrative and Waste Services,17832043,403,851,2006,1
-Health Care and Social Assistance,42551463,1335,613,2006,1
-Arts Entertainment and Recreation,2591393,161,310,2006,1
-Accommodation and Food Services,13437602,704,367,2006,1
-Other Services,14583468,568,494,2006,1
-Public Administration,19742828,480,791,2006,1
-Construction,46755369,904,995,2005,1
-Manufacturing,3375066,114,569,2005,1
-Durable Goods Manufacturing,676573,17,765,2005,1
-Non-Durable Goods Manufacturing,2698493,96,541,2005,1
-Wholesale Trade,6689670,122,1054,2005,1
-Retail Trade,27663043,988,538,2005,1
-Information,6761345,171,760,2005,1
-Finance and Insurance,20998253,369,1094,2005,1
-Real Estate and Rental and Leasing,7942328,201,760,2005,1
-Professional and Technical Services,31679921,482,1264,2005,1
-Administrative and Waste Services,15165961,361,808,2005,1
-Health Care and Social Assistance,51950746,1499,666,2005,1
-Arts Entertainment and Recreation,2644148,188,270,2005,1
-Accommodation and Food Services,12463887,678,354,2005,1
-Other Services,15062370,585,495,2005,1
-Public Administration,18469369,453,784,2005,1
+Sector,Total Wages,Employees,Average Weekly Wage,Year
+Accommodation and Food Services,14663438,768,367,2013
+Administrative and Waste Services,18035269,331,1048,2013
+Arts Entertainment and Recreation,3391537,137,476,2013
+Construction,56920583,924,1185,2013
+Durable Goods Manufacturing,1399340,21,1281,2013
+Finance and Insurance,31608855,401,1516,2013
+Health Care and Social Assistance,64588546,1765,704,2013
+Information,24733242,283,1681,2013
+Manufacturing,3838141,109,677,2013
+Non-Durable Goods Manufacturing,2438801,87,539,2013
+Other Services,18979021,661,552,2013
+Professional and Technical Services,28106912,365,1481,2013
+Public Administration,26355973,425,1193,2013
+Real Estate and Rental and Leasing,7111123,139,984,2013
+Retail Trade,30587465,942,624,2013
+Transportation and Warehousing,7826550,141,1067,2013
+Wholesale Trade,8945749,132,1303,2013
+Construction,55184614,946,1122,2012
+Manufacturing,3435221,109,606,2012
+Durable Goods Manufacturing,954009,19,966,2012
+Non-Durable Goods Manufacturing,2481212,90,530,2012
+Wholesale Trade,8367715,129,1247,2012
+Retail Trade,27890885,916,586,2012
+Transportation and Warehousing,7661911,146,1009,2012
+Information,20158071,281,1380,2012
+Finance and Insurance,29783078,367,1561,2012
+Real Estate and Rental and Leasing,7008764,140,963,2012
+Professional and Technical Services,27458158,359,1471,2012
+Administrative and Waste Services,17410181,321,1043,2012
+Health Care and Social Assistance,56865560,1585,690,2012
+Arts Entertainment and Recreation,3263163,144,436,2012
+Accommodation and Food Services,14218531,728,376,2012
+Other Services,18191720,695,503,2012
+Public Administration,26634102,452,1133,2012
+Construction,51588131,894,1110,2011
+Manufacturing,3227648,105,591,2011
+Durable Goods Manufacturing,848963,17,960,2011
+Non-Durable Goods Manufacturing,2378685,88,520,2011
+Wholesale Trade,8917412,122,1406,2011
+Retail Trade,26198896,891,565,2011
+Transportation and Warehousing,7906989,152,1000,2011
+Information,18912791,258,1410,2011
+Finance and Insurance,26725595,333,1543,2011
+Real Estate and Rental and Leasing,7390049,153,929,2011
+Professional and Technical Services,29105679,378,1481,2011
+Administrative and Waste Services,16258686,294,1063,2011
+Health Care and Social Assistance,52380898,1523,661,2011
+Arts Entertainment and Recreation,3375708,141,460,2011
+Accommodation and Food Services,13693555,737,357,2011
+Other Services,17869551,670,513,2011
+Public Administration,25538198,439,1119,2011
+Construction,49842749,877,1093,2010
+Manufacturing,3703257,119,598,2010
+Durable Goods Manufacturing,1055236,15,1353,2010
+Non-Durable Goods Manufacturing,2648021,105,485,2010
+Wholesale Trade,8645455,118,1409,2010
+Retail Trade,26570729,893,572,2010
+Transportation and Warehousing,7885617,157,966,2010
+Information,17823449,278,1233,2010
+Finance and Insurance,21205761,289,1411,2010
+Real Estate and Rental and Leasing,8435146,165,983,2010
+Professional and Technical Services,24631632,342,1385,2010
+Administrative and Waste Services,14426228,270,1028,2010
+Health Care and Social Assistance,49257763,1485,638,2010
+Arts Entertainment and Recreation,3571256,154,446,2010
+Accommodation and Food Services,12530050,685,352,2010
+Other Services,17138007,655,503,2010
+Public Administration,23930579,448,1027,2010
+Construction,47467962,847,1078,2009
+Manufacturing,3355777,113,571,2009
+Durable Goods Manufacturing,725346,13,1073,2009
+Non-Durable Goods Manufacturing,2630431,100,506,2009
+Wholesale Trade,7662573,109,1352,2009
+Retail Trade,27014477,922,563,2009
+Transportation and Warehousing,7738832,156,954,2009
+Information,17445099,290,1157,2009
+Finance and Insurance,18918273,306,1189,2009
+Real Estate and Rental and Leasing,8008368,168,917,2009
+Professional and Technical Services,32735924,444,1418,2009
+Administrative and Waste Services,15687410,298,1012,2009
+Health Care and Social Assistance,50603996,1535,634,2009
+Arts Entertainment and Recreation,2477540,136,350,2009
+Accommodation and Food Services,11475677,606,364,2009
+Other Services,15703423,576,524,2009
+Public Administration,23255740,477,938,2009
+Construction,48590913,879,1063,2008
+Manufacturing,3551113,123,555,2008
+Durable Goods Manufacturing,650249,12,1042,2008
+Non-Durable Goods Manufacturing,2900864,111,503,2008
+Wholesale Trade,7925576,126,1210,2008
+Retail Trade,27290181,933,562,2008
+Information,7439437,155,923,2008
+Finance and Insurance,16310016,305,1028,2008
+Real Estate and Rental and Leasing,8153111,178,881,2008
+Professional and Technical Services,35748807,480,1432,2008
+Administrative and Waste Services,16287216,356,880,2008
+Health Care and Social Assistance,51463445,1547,640,2008
+Arts Entertainment and Recreation,3216146,169,366,2008
+Accommodation and Food Services,12994408,696,359,2008
+Other Services,15396550,549,539,2008
+Public Administration,22250691,481,890,2008
+Construction,48207889,896,1035,2007
+Manufacturing,3634751,114,613,2007
+Durable Goods Manufacturing,774565,13,1146,2007
+Non-Durable Goods Manufacturing,2860186,101,545,2007
+Wholesale Trade,8998178,142,1219,2007
+Retail Trade,25364104,931,524,2007
+Information,9064334,171,1019,2007
+Finance and Insurance,17984265,310,1116,2007
+Real Estate and Rental and Leasing,8844065,208,818,2007
+Professional and Technical Services,32575301,465,1347,2007
+Administrative and Waste Services,18566844,389,918,2007
+Health Care and Social Assistance,47502218,1497,610,2007
+Arts Entertainment and Recreation,2552253,124,396,2007
+Accommodation and Food Services,13474531,704,368,2007
+Other Services,15156067,559,521,2007
+Public Administration,21060572,482,840,2007
+Construction,49480144,948,1004,2006
+Manufacturing,3227274,106,585,2006
+Non-Durable Goods Manufacturing,2690750,99,523,2006
+Wholesale Trade,9118436,130,1349,2006
+Retail Trade,24853743,933,512,2006
+Information,6946172,172,777,2006
+Finance and Insurance,17443999,312,1075,2006
+Real Estate and Rental and Leasing,8394700,204,791,2006
+Professional and Technical Services,34740387,511,1307,2006
+Administrative and Waste Services,17832043,403,851,2006
+Health Care and Social Assistance,42551463,1335,613,2006
+Arts Entertainment and Recreation,2591393,161,310,2006
+Accommodation and Food Services,13437602,704,367,2006
+Other Services,14583468,568,494,2006
+Public Administration,19742828,480,791,2006
+Construction,46755369,904,995,2005
+Manufacturing,3375066,114,569,2005
+Durable Goods Manufacturing,676573,17,765,2005
+Non-Durable Goods Manufacturing,2698493,96,541,2005
+Wholesale Trade,6689670,122,1054,2005
+Retail Trade,27663043,988,538,2005
+Information,6761345,171,760,2005
+Finance and Insurance,20998253,369,1094,2005
+Real Estate and Rental and Leasing,7942328,201,760,2005
+Professional and Technical Services,31679921,482,1264,2005
+Administrative and Waste Services,15165961,361,808,2005
+Health Care and Social Assistance,51950746,1499,666,2005
+Arts Entertainment and Recreation,2644148,188,270,2005
+Accommodation and Food Services,12463887,678,354,2005
+Other Services,15062370,585,495,2005
+Public Administration,18469369,453,784,2005
