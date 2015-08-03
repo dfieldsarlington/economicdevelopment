@@ -96,11 +96,11 @@
 
           // Draw the main chart
           var bubbles = new dimple.chart(svg, data);
-          bubbles.setBounds(60, 160, 355, 310)
+          bubbles.setBounds(60, 200, 355, 310)
           bubbles.addMeasureAxis("x", "Employees");
           bubbles.addMeasureAxis("y", "Average Weekly Wage");
           bubbles.addSeries(["Sector"], dimple.plot.bubble)
-          bubbles.addLegend(40, 60, 410, 60);
+          bubbles.addLegend(40, 100, 410, 60);
 
           // Add a storyboard to the main chart and set the tick event
           var story = bubbles.setStoryboard("Year", onTick);
